@@ -29,15 +29,6 @@ volume keys use.
 omarchy plugin add https://github.com/tsmithscott/omarchy-bt-volume-osd --enable
 ```
 
-Or manually:
-
-```bash
-git clone https://github.com/tsmithscott/omarchy-bt-volume-osd \
-  ~/.config/omarchy/plugins/tsmithscott.bt-volume-osd
-omarchy-shell shell rescanPlugins
-omarchy plugin enable tsmithscott.bt-volume-osd
-```
-
 ## Remove
 
 ```bash
