@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "tsmithscott.bt-volume-osd",
+  "name": "Bluetooth volume OSD",
+  "version": "1.0.0",
+  "author": "tsmithscott",
+  "description": "Shows the volume OSD when Bluetooth headphones change the volume from their own buttons (AVRCP absolute volume), just like the keyboard volume keys.",
+  "kinds": [
+    "service"
+  ],
+  "keepLoaded": true,
+  "entryPoints": {
+    "service": "Service.qml"
+  }
+}
